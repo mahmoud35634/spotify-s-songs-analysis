@@ -11,43 +11,7 @@ Recommendation System: Developing a system to recommend songs based on user pref
 Data
 The dataset includes a wide range of song attributes extracted from the Spotify API. Each song entry contains information such as track name, artist, album, release date, tempo, energy, danceability, valence, and more.
 
-Installation
-To run this project locally, follow these steps:
 
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/yourusername/spotify-songs-analysis.git
-Navigate to the project directory:
-
-bash
-Copy code
-cd spotify-songs-analysis
-Create a virtual environment and activate it:
-
-bash
-Copy code
-python -m venv env
-source env/bin/activate  # On Windows use `env\Scripts\activate`
-Install the required dependencies:
-
-bash
-Copy code
-pip install -r requirements.txt
-Obtain your Spotify API credentials and set them as environment variables:
-
-bash
-Copy code
-export SPOTIPY_CLIENT_ID='your_client_id'
-export SPOTIPY_CLIENT_SECRET='your_client_secret'
-export SPOTIPY_REDIRECT_URI='your_redirect_uri'
-Run the analysis scripts or the application:
-
-bash
-Copy code
-python analysis.py  # For data analysis
-python app.py  # For the web application
 Usage
 Data Collection:
 
